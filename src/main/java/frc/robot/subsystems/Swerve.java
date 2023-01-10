@@ -41,6 +41,7 @@ public class Swerve extends SubsystemBase {
         };
 
         swerveOdometry = new SwerveDriveOdometry(Constants.Swerve.swerveKinematics, getYaw(), getModulePositions());
+        drive(new Translation2d(0, 0), 0, true, true);
     }
 
     public void zeroHeading() {
