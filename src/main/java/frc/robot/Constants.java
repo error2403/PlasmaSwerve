@@ -11,7 +11,7 @@ import frc.lib.util.COTSFalconSwerveConstants;
 import frc.lib.util.SwerveModuleConstants;
 
 public final class Constants {
-    public static final double stickDeadband = 0.2;
+    public static final double stickDeadband = 0.1;
 
     public static final class Swerve {
         public static final boolean invertGyro = true; // Always ensure Gyro is CCW+ CW-
